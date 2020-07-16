@@ -59,7 +59,7 @@
   "headline": "AMGT-TS",
   "description" : "AMGT-TS User Manual\n",
   "inLanguage" : "en",
-  "wordCount":  30 ,
+  "wordCount":  228 ,
   "datePublished" : "2020-07-15T22:39:10",
   "dateModified" : "2020-07-15T22:39:10",
   "image" : "https:\/\/maizerc.github.io\/img\/avatar-icon.png",
@@ -269,10 +269,10 @@
   <i class="fas fa-calendar"></i>&nbsp;Posted on July 15, 2020
   
   
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;30&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;228&nbsp;words
   
   
   &nbsp;&bull;&nbsp;Other languages: <a href="https://maizerc.github.io/zh-cn/post/amgt-ts/" lang="zh-cn">zh-cn</a>
@@ -308,10 +308,10 @@
   <i class="fas fa-calendar"></i>&nbsp;Posted on July 15, 2020
   
   
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;30&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;228&nbsp;words
   
   
   &nbsp;&bull;&nbsp;Other languages: <a href="https://maizerc.github.io/zh-cn/post/amgt-ts/" lang="zh-cn">zh-cn</a>
@@ -333,47 +333,52 @@
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
         <p>AMGT-TS User Manual</p>
-<h1 id="amgt-ts-">AMGT-TS 使用说明书</h1>
-<h2 id="heading">创建项目</h2>
-<h3 id="1-">步骤1: 填写创建项目表单包括以下内容</h3>
+<h1 id="amgt-ts-user-manual">AMGT-TS User manual</h1>
+<h2 id="create-a-new-project">Create a new project</h2>
+<h3 id="step-1">Step 1:</h3>
+<p>Launch this function by select the menu item &ldquo;New Project&rdquo; on the left, then fill the following information:</p>
 <ul>
-<li>项目名称</li>
-<li>项目描述</li>
-<li>样品序列文件</li>
-<li>参考序列文件</li>
-<li>项目备注</li>
+<li>Project name</li>
+<li>Project description</li>
+<li>Upload the targeted sequencing files of each sample
+we can upload more than one samples data files and there is no limit.</li>
+<li>Reference files
+Use the default if you are not familiar with the details.</li>
+<li>Remark</li>
 </ul>
-<p>通过点击<code>Next</code>创建项目</p>
+<p>Then use the <code>Next</code> button to continue:</p>
 <p><img src="https://gitlab.com/acdna/datp/-/raw/mets/1.0/images/step1.png?inline=true" alt="step1"></p>
-<h3 id="2-">步骤2: 执行分析脚本</h3>
+<h3 id="step-2">Step 2:</h3>
 <ul>
 <li>
-<p>项目创建完毕后进入步骤2，通过点击<code>Start</code>按钮开始执行分析程序</p>
+<p>After creating the project, we use the <code>Start</code> button to launch the AMGT-TS tool.</p>
 </li>
 <li>
-<p>分析结束后通过点击<code>Next</code> 进入步骤3，查看分析结果</p>
+<p>Then, we use the <code>Next</code> button to go to the result tab page.</p>
 </li>
 </ul>
 <p><img src="https://gitlab.com/acdna/datp/-/raw/mets/1.0/images/step2.png?inline=true" alt="step2"></p>
-<h3 id="3-">步骤3: 查看分析结果</h3>
+<h3 id="step-3">Step 3:</h3>
 <ul>
-<li>该界面展示了参与分析程序的样品列表，通过点击某一项的<code>View Analysis Results</code> 查看该样品的全部位点信息</li>
+<li>This page show the analysis result of AMGT-TS tool. We can select the <code>View Analysis Results</code> of a sample, to view all the loci result information of this sample.</li>
 </ul>
 <p><img src="https://gitlab.com/acdna/datp/-/raw/mets/1.0/images/step3.png?inline=true" alt="step3"></p>
 <p><img src="https://gitlab.com/acdna/datp/-/raw/mets/1.0/images/sites.png?inline=true" alt="sites"></p>
 <ul>
-<li>当点击某个位点下的SSR分型结果后，系统将展示该SSR分型的对齐图，该图以重复区为参照将左右剩余的序列进行对齐，第一行是该位点的参考序列，同时针对每种碱基配置不同的背景颜色进行区分。</li>
+<li>We can show the reads alignment graph by select a locus. In the graph, the first read is the reference read of the locus，others is from the targeted sequencing data.</li>
 </ul>
 <p><img src="https://gitlab.com/acdna/datp/-/raw/mets/1.0/images/alignment.gif?inline=true" alt="alignment"></p>
-<h2 id="heading-1">项目列表</h2>
+<h2 id="projects-list">Projects list</h2>
 <p><img src="https://gitlab.com/acdna/datp/-/raw/mets/1.0/images/projectList.png?inline=true" alt="projectList"></p>
-<p>该功能展示系统中已创建的项目列表，通过点击<code>View</code>进入项目详情页面，该页面包含以下两部分内容</p>
+<p>We can view all the projects information by select the second menu item on the left. By select the <code>View</code> button to check the details of each project. There are information of each project as following:</p>
 <ul>
 <li>
-<p>基础信息：如项目名称；描述；分析结果路径等。</p>
+<p>Basic information
+Such as project name, description, the result path, etc.</p>
 </li>
 <li>
-<p>样品列表：与步骤3中的样品列表相同，具体功能请参照步骤3。</p>
+<p>Samples list：
+Same as the step 3 of &ldquo;Create a new project&rdquo;.</p>
 </li>
 </ul>
 <p><img src="https://gitlab.com/acdna/datp/-/raw/mets/1.0/images/viewProject.png?inline=true" alt="viewProject"></p>
@@ -428,52 +433,19 @@
                 </a>
               </li>
               <li>
-                <a href="https://github.com/username" title="GitHub">
+                <a href="https://github.com/plantdna/amgt-ts" title="GitHub">
                   <span class="fa-stack fa-lg">
                     <i class="fas fa-circle fa-stack-2x"></i>
                     <i class="fab fa-github fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
               </li>
-              <li>
-                <a href="https://gitlab.com/username" title="GitLab">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-gitlab fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/user/username" title="Youtube">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://weibo.com/username" title="Weibo">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-weibo fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-          
-          <li>
-            <a href="" title="RSS">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
           
         </ul>
         <p class="credits copyright text-muted">
           
             
-              <a href="yourwebsite.com">Maize Research Center</a>
+              Maize Research Center
             
           
 
