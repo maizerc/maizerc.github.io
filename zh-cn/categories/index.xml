@@ -6,10 +6,6 @@
     <description>Recent content in Categories on System Manuals</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>youremail@domain.com (Maize Research Center)</managingEditor>
-    <webMaster>youremail@domain.com (Maize Research Center)</webMaster>
-    
-	<atom:link href="https://maizerc.github.io/zh-cn/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <webMaster>youremail@domain.com (Maize Research Center)</webMaster><atom:link href="https://maizerc.github.io/zh-cn/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
