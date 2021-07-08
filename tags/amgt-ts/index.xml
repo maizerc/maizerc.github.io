@@ -7,14 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>youremail@domain.com (Maize Research Center)</managingEditor>
     <webMaster>youremail@domain.com (Maize Research Center)</webMaster>
-    <lastBuildDate>Wed, 15 Jul 2020 22:39:10 +0800</lastBuildDate><atom:link href="https://maizerc.github.io/tags/amgt-ts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jul 2021 08:39:10 +0800</lastBuildDate><atom:link href="https://maizerc.github.io/tags/amgt-ts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AMGT-TS</title>
-      <link>https://maizerc.github.io/post/amgt-ts/</link>
+      <title>Terminal version</title>
+      <link>https://maizerc.github.io/post/terminal/</link>
+      <pubDate>Thu, 08 Jul 2021 08:39:10 +0800</pubDate>
+      <author>youremail@domain.com (Maize Research Center)</author>
+      <guid>https://maizerc.github.io/post/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ONLINE version</title>
+      <link>https://maizerc.github.io/post/online/</link>
       <pubDate>Wed, 15 Jul 2020 22:39:10 +0800</pubDate>
       <author>youremail@domain.com (Maize Research Center)</author>
-      <guid>https://maizerc.github.io/post/amgt-ts/</guid>
-      <description>&lt;p&gt;AMGT-TS User Manual&lt;/p&gt;</description>
+      <guid>https://maizerc.github.io/post/online/</guid>
+      <description></description>
     </item>
     
   </channel>

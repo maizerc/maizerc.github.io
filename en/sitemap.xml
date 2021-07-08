@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
-    <loc>https://maizerc.github.io/tags/amgt-ts/</loc>
-    <lastmod>2020-07-15T22:39:10+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://maizerc.github.io/zh-cn/tags/amgt-ts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://maizerc.github.io/tags/amgt-ts/"
-                />
-  </url><url>
     <loc>https://maizerc.github.io/post/amgt-ts/</loc>
-    <lastmod>2020-07-15T22:39:10+08:00</lastmod>
+    <lastmod>2021-07-08T10:08:10+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -27,9 +15,11 @@
                 hreflang="en"
                 href="https://maizerc.github.io/post/amgt-ts/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://maizerc.github.io/post/</loc>
-    <lastmod>2020-07-15T22:39:10+08:00</lastmod>
+    <lastmod>2021-07-08T10:08:10+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -40,9 +30,16 @@
                 hreflang="en"
                 href="https://maizerc.github.io/post/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://maizerc.github.io/tags/summary/</loc>
+    <lastmod>2021-07-08T10:08:10+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://maizerc.github.io/</loc>
-    <lastmod>2020-07-15T22:39:10+08:00</lastmod>
+    <lastmod>2021-07-08T10:08:10+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -53,9 +50,11 @@
                 hreflang="en"
                 href="https://maizerc.github.io/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://maizerc.github.io/tags/</loc>
-    <lastmod>2020-07-15T22:39:10+08:00</lastmod>
+    <lastmod>2021-07-08T10:08:10+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -66,7 +65,34 @@
                 hreflang="en"
                 href="https://maizerc.github.io/tags/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://maizerc.github.io/tags/amgt-ts/</loc>
+    <lastmod>2021-07-08T08:39:10+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://maizerc.github.io/zh-cn/tags/amgt-ts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maizerc.github.io/tags/amgt-ts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://maizerc.github.io/post/terminal/</loc>
+    <lastmod>2021-07-08T08:39:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maizerc.github.io/post/online/</loc>
+    <lastmod>2020-07-15T22:39:10+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://maizerc.github.io/page/about/</loc>
     <xhtml:link
                 rel="alternate"
@@ -78,7 +104,9 @@
                 hreflang="en"
                 href="https://maizerc.github.io/page/about/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://maizerc.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -90,7 +118,9 @@
                 hreflang="en"
                 href="https://maizerc.github.io/categories/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://maizerc.github.io/page/</loc>
     <xhtml:link
                 rel="alternate"
@@ -103,4 +133,5 @@
                 href="https://maizerc.github.io/page/"
                 />
   </url>
+  
 </urlset>
